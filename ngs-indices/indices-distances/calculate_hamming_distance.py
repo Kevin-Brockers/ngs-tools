@@ -25,7 +25,7 @@ def main():
     results_csv = args.results_csv
     comparison_pdf = args.comparison_pdf
 
-    # -------------------------------- Scipt -------------------------------- #
+    # -------------------------------- Script ------------------------------- #
 
     # Make sure the column names for the data set are fine ['name', 'i7', 'i5']
     if not ref_indices.columns.to_list().sort() == \

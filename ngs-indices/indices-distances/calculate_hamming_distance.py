@@ -106,7 +106,6 @@ def main():
 
     fg1 = sns.displot(data=ref_df,
                     x='hamming_distance',
-                    # col='ref-index-name',
                     col='test-index-name',
                     col_wrap=3,
                     hue='index',

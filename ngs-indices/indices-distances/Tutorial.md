@@ -12,7 +12,7 @@
         3. i5
 
 3. Run the calculate distance script:
-    - `python3.9 --test_set 
-                 --reference_set
-                 --comparison_csv
-                 --comparison_pdf`
+    - `python3.9 --test_set '' 
+                 --reference_set ''
+                 --comparison_csv ''
+                 --comparison_pdf ''`

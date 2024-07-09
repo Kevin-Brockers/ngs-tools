@@ -74,6 +74,7 @@ def main():
                 ans.name = ix
                 _df.append(ans)
             
+            # Bring data into shape
             _df = pd.concat(_df, axis=1)
             _df.columns.name = 'test-index-name'
             _df.index.name = 'ref-index-name'
